@@ -13,14 +13,17 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
-
+  background:  no-repeat center/100% url('./images/snowflake.jpg');
 }
 
+
+
 .text {
-font-size: 25px;
+font-size: 125px;
 font-weight: 700;
 text-align: center;
-color: seagreen;
+color: palevioletred;
+
 font-style: italic;
 }
 
@@ -30,20 +33,29 @@ text-align: center;
 
 .field {
   display: inline-block;
-	background-color:gray;
-  color: black;
+	background-color: blanchedalmond;
+  color: blueviolet;
+  font-size: 28px;
   font-weight: 700;
 	line-height: 1.43;
-	width: 130px;
+  width: 170px;
+  height: 150px;
 	margin: 0 1px;
 	border-radius: 30px;
 }
 
 .value {
- font-size: 50px;
+ font-size: 70px;
+ 
 }
 
 .label {
   display: block;
 	text-transform: uppercase;
 }
+
+ img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
